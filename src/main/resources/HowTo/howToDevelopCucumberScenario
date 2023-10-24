@@ -1,0 +1,24 @@
+how to build scenario
+build a folder--optional(in side the resources folder)
+build feature with .feature extension
+how do you comment out line in the feature file
+what is feature
+what is scenario
+what is task
+what is given
+what is when 
+what is then
+what is tag
+
+how to write a scenario/ what is the formula
+
+As a user== precondition==given
+I want to do something==action==When
+so that it will work== validation ==Then
+
+As a tester I open facebook application to enter my valid user name and password and I  click login button so that i can be logged in
+
+explain this code bellow
+@RunWith(Cucumber.class)
+@RunWith== run with Junit== follow Junit rules
+(Cucumber.class)== run those file who has .feature extension

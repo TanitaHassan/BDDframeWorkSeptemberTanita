@@ -1,0 +1,31 @@
+Step-1 build a runner package
+Step-2 Develop a runner class
+
+@RunWith== import org.junit.runner.RunWith;
+   it is basicly junit runner
+   
+   (Cucumber.class)==run anything with .feature extension
+  what is @CucumberOptions()==filter and designing run configuration
+  
+  what is plug in== reporting== cucumber report
+  plugin="html:target/facebookReport.html";
+  
+  plugin={"pretty", "html:target/facebookReport.html","xml:target/facebookReport.xml"}
+   
+   what is feature=file path where all the feature files are
+   most of the time it will be folder path
+   but it is possible to go any level
+   src/test/resources/features/login.feature
+   
+   what is glue==path of the step defination
+   most of the time it will be folder path
+   "com.facebook.stepDefinations"
+   but it is possible to go any level
+   "com.facebook.stepDefinations.LoginStep
+   
+   what is tag== grouping such as @smoke
+   can you run mulitple tag at the same time=yes{"@smoke", "@regrassion"}
+   tagging condition= and, or, include, exclude
+   
+   
+   

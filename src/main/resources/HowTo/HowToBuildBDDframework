@@ -1,0 +1,22 @@
+ Step-1
+    build maven framework appropriately
+ Step -2
+     configure pom.xml file
+       properties--->java version
+       dependencies-->selenium, WebDriverManger, cucumber,junit
+       plug-ins--->sure fire plugin
+       
+ Step-3 add cucumber plug-in
+ 
+ Step-4 build feature folder and feature file
+ step-5 convert into cucumber frame work
+ step -6 Develop cucumber runner file
+ step-7 configure runner file
+ step-8 run from runner file
+ step-9 copy the trace from junit
+ step 10- build step defination package
+ step 11- build test defination class
+ step 12- paste the trace and fix it
+ step 13- make sure glue path is right.
+ 
+     
